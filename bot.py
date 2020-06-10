@@ -9,8 +9,8 @@ def login(browser):
     password = browser.find_element_by_css_selector("[name='password']")
     login = browser.find_element_by_css_selector("button")
 
-    username.send_keys("antonioo_jesuss21")
-    password.send_keys("antonio-210512")
+    username.send_keys("your_name_account")
+    password.send_keys("your_password")
     login.click()
 
     time.sleep(4)
